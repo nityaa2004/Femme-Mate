@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menstrual Cycle Prediction</title>
+</head>
+<body>
+    <script arc=”/script.js”>
+    function predictCycle() {
+    var name = document.getElementById("name").value;
+    var lastPeriodDateStr = document.getElementById("last_period_date").value;
+    var cycleLength = parseInt(document.getElementById("cycle_length").value);
+
+    // Convert lastPeriodDateStr to a Date object
+    var lastPeriodDate = new Date(lastPeriodDateStr);
+
+    // Calculate the next expected menstrual date of next month
+    var nextPeriodDate = new Date(lastPeriodDate.getTime() + cycleLength * 24 * 60 * 60 * 1000);
+    var nextMonth = nextPeriodDate.getMonth();
+    while (nextPeriodDate.getMonth() === nextMonth) {
+        nextPeriodDate = new Date(nextPeriodDate.getTime() + cycleLength * 24 * 60 * 60 * 1000);
+    }
+
+    // Calculate the expected menstrual cycle of the user
+    var expectedMenstrualCycle = (nextPeriodDate - lastPeriodDate) / (1000 * 60 * 60 * 24);
+
+    // Update the result_label with the user-entered data and the calculated dates
+    var resultLabel = document.getElementById("result_label");
+    resultLabel.innerHTML = "Next period date for " + name + ": " + nextPeriodDate.toISOString().slice(0, 10) + "<br>" +
+                             "Expected menstrual cycle after: " + expectedMenstrualCycle + " days";
+}
+
+// Start the main event loop after the DOM is loaded
+document.addEventListener("DOMContentLoaded", function(event) {
+    // Add event listener to the predict button
+    var predictButton = document.getElementById("predict_button");
+    predictButton.addEventListener("click", predictCycle);
+});
+    </script>
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br>
+
+    <label for="last_period_date">Last Period Date (YYYY-MM-DD):</label>
+    <input type="text" id="last_period_date"><br>
+
+    <label for="cycle_length">Cycle Length (in days):</label>
+    <input type="text" id="cycle_length"><br>
+
+    <button id="predict_button">Predict Next Cycle</button><br>
+
+    <div id="result_label"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

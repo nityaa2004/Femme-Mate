@@ -1,0 +1,178 @@
+.frame-2 .container {
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    padding: 9px 20px 1px 0;
+    width: 1126px;
+    box-sizing: border-box;
+  }
+  .frame-2 .line-3 {
+    background: rgba(0, 121, 189, 0.5);
+    width: 83px;
+    height: 6px;
+  }
+  .frame-2 .line-2 {
+    background: rgba(0, 121, 189, 0.5);
+    width: 101px;
+    height: 6px;
+  }
+  .frame-2 .line-4 {
+    background: rgba(0, 121, 189, 0.5);
+    width: 66px;
+    height: 6px;
+  }
+  .frame-2 .femme-mate {
+    margin-right: 74.4px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel Decorative';
+    font-weight: 400;
+    font-size: 64px;
+    color: #C644B9;
+  }
+  .frame-2 .more-about-periods {
+    margin: 0 53px 14px 53px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 40px;
+    color: #9A4AA1;
+  }
+  .frame-2 {
+    background: linear-gradient(180deg, #F7E8F2, #C96AE0);
+    display: flex;
+    width: 1126px;
+    box-sizing: border-box;
+  }
+  .frame-2 .group-1 {
+    position: absolute;
+    left: 18px;
+    top: 9px;
+    display: flex;
+    width: 60.1px;
+    height: 100px;
+    box-sizing: border-box;
+  }
+  .frame-2 .image-1 {
+    background: url('../assets/images/image_1.png') 50% / cover no-repeat;
+    width: 60.1px;
+    height: 100px;
+  }
+  .frame-2 .during-menstruation-its-essential-for-anyone-including-girls-to-maintain-abalanced-diet-rich-in-iron-calcium-and-vitamins-to-support-overall-health-and-manage-menstrual-symptoms-some-foods-that-may-be-beneficial-during-periods-include-iron-rich-foods-like-spinach-red-meat-lentils-and-fortified-cereals-to-help-replenish-iron-lost-during-menstruation-foods-high-in-calcium-such-as-dairy-products-leafy-greens-and-fortified-non-dairy-milk-to-support-bone-health-and-alleviate-cramps-magnesium-rich-foods-like-nuts-seeds-whole-grains-and-dark-chocolate-which-may-help-reduce-bloating-and-muscle-cramps-foods-high-in-vitamin-b-6-such-as-bananas-chicken-potatoes-and-fish-which-can-help-regulate-mood-swings-and-reduce-water-retention-omega-3-fatty-acids-found-in-fatty-fish-flaxseeds-chia-seeds-and-walnuts-which-may-help-reduce-inflammation-and-ease-menstrual-pain-its-also-important-to-stay-hydrated-by-drinking-plenty-of-water-and-herbal-teas-to-help-alleviate-bloating-and-flush-out-toxins-additionally-listening-to-your-body-and-consuming-foods-that-you-find-comforting-and-easy-to-digest-can-also-be-beneficial-during-menstruation {
+    position: absolute;
+    left: 47px;
+    top: 319px;
+    text-align: justify;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+  .frame-2 .food-to-eat-during-your-periods-to-stay-healthy {
+    margin: 0 53px 677px 53px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 30px;
+    color: #9A4AA1;
+  }
+  .frame-2 .exercise-to-do-during-your-periods-to-minimize-cramp-pain {
+    margin: 0 88.8px 282px 53px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 30px;
+    color: #8B3A92;
+  }
+  .frame-2 .cobra-cat-cow-and-fish-yoga-poses-are-afew-good-exercises-for-you-to-try-they-may-help-you-cope-with-heavy-cramping-and-are-best-for-your-heavier-menstrual-days-stretches-are-best-done-when-the-body-is-warmas-it-is-after-abath-or-shower-each-stretch-should-be-held-for-30-to-60-seconds-because-of-the-slump-in-energy-during-menstruation-low-intensity-aerobic-exercises-such-as-swimming-yoga-strength-training-and-light-cardio-including-walking-and-cycling-can-be-easier-on-the-body-theyre-non-weight-bearing-activities-and-not-very-endurance-heavy {
+    position: absolute;
+    left: 47px;
+    bottom: 750px;
+    text-align: justify;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+  .frame-2 .medications-to-have-during-periods {
+    margin: 0 53px;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 30px;
+    color: #7F3285;
+  }
+  .frame-2 .self-treatment-taking-an-anti-inflammatory-medication-such-as-ibuprofen-or-mefenamic-acid-may-help-to-reduce-blood-loss-seeking-medical-care-see-adoctor-immediately-if-you-soak-through-more-than-one-pad-or-tampon-an-hour-over-several-hours-also-have-fatigue-or-shortness-of-breath-make-an-appointment-to-see-adoctor-if-you-bleed-longer-than-aweek-or-between-periods-notice-your-menstrual-flow-is-heavier-than-usual-pass-blood-clots-on-more-than-one-day-of-your-period-must-double-up-on-pads-to-prevent-soaking-through-have-difficulty-doing-daily-activities-experience-any-bleeding-after-menopause {
+    position: absolute;
+    left: 47px;
+    bottom: 71px;
+    text-align: justify;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+  .frame-2 .home {
+    margin: 0 7.4px 5px 9px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 15px;
+    color: #0C0C0C;
+  }
+  .frame-2 .about-us {
+    margin: 0 12.2px 5px 12px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 15px;
+    color: #0C0C0C;
+  }
+  .frame-2 .contact {
+    margin: 0 9.7px 5px 8px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 15px;
+    color: #0C0C0C;
+  }
+  .frame-2 .container-1 {
+    margin: 9px 0 27px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .frame-2 .container-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .frame-2 .container-3 {
+    margin: 9px 10px 27px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .frame-2 .container-4 {
+    margin: 9px 9px 27px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
